@@ -63,7 +63,7 @@ export default function ImagesGalleryInfo({ imageName }) {
         <>
           <ImageGallery images={images.hits} />
 
-          {images.length > 12 && (<Button onClick={onClickLoadMore} />)}
+          <Button onClick={onClickLoadMore} />
           </>
       );
     }
